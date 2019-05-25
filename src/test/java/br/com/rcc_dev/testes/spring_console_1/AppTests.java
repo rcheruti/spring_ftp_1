@@ -5,6 +5,7 @@ import java.net.SocketException;
 
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockftpserver.fake.FakeFtpServer;
@@ -18,6 +19,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import lombok.extern.slf4j.Slf4j;
 
+@Ignore
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @Slf4j

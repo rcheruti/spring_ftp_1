@@ -10,8 +10,7 @@ import lombok.Data;
 @ConfigurationProperties(prefix = "config")
 public class Config {
   
-  private String name = "";
-  private String ftpServer = "";
-  private int ftpPort = 21;
+  private String ftpServer =  "";
+  private int ftpPort =       21;
 
 }

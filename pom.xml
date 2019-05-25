@@ -67,6 +67,13 @@
 		<!-- ======================   Tests   ==================== -->
 
 		<dependency>
+				<groupId>org.apache.sshd</groupId>
+				<artifactId>sshd-sftp</artifactId>
+				<version>2.2.0</version>
+		</dependency>
+
+
+		<dependency>
 			<groupId>org.mockftpserver</groupId>
 			<artifactId>MockFtpServer</artifactId>
 			<version>2.7.1</version>
